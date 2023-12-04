@@ -10,7 +10,7 @@ source venv/bin/activate
 # Installation des dépendances
 pip3 install -r requirements.txt
 # Création des variables
-echo "Django" > testdocker/.env
+echo "APP_DISPLAY_NAME=Django" > testdocker/.env
 # Lancement de l'application
 python3 manage.py runserver
 ```
